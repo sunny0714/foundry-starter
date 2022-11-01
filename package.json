@@ -1,8 +1,8 @@
 {
-  "name": "foundry-starter-kit",
+  "name": "foundry-starter",
   "version": "1.0.0",
   "description": "Minimal Template for Foundry Projects",
-  "author": "Patrick Collins",
+  "author": "Sunny",
   "license": "MIT",
   "files": [
     "src/**/*.sol"
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartcontractkit/foundry-starter-kit.git"
+    "url": "git+https://github.com/sunny0714/foundry-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/smartcontractkit/foundry-starter-kit/issues"
+    "url": "https://github.com/sunny0714/foundry-starter/issues"
   },
   "scripts": {
     "setup": "make clean && make build",

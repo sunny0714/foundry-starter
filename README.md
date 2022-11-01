@@ -2,16 +2,6 @@
 
 # Foundry Starter Kit
 
-<br/>
-<p align="center">
-<a href="https://chain.link" target="_blank">
-<img src="./img/chainlink-foundry.png" width="225" alt="Chainlink Foundry logo">
-</a>
-</p>
-<br/>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smartcontractkit/foundry-starter-kit)
-
 Foundry Starter Kit is a repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, [foundry](https://github.com/gakonst/foundry)!
 
 
@@ -26,10 +16,6 @@ Foundry Starter Kit is a repo that shows developers how to quickly build, test, 
     - [Working with a local network](#working-with-a-local-network)
     - [Working with other chains](#working-with-other-chains)
 - [Security](#security)
-- [Contributing](#contributing)
-- [Thank You!](#thank-you)
-  - [Resources](#resources)
-    - [TODO](#todo)
 
 # Getting Started
 
@@ -49,8 +35,8 @@ And you probably already have `make` installed... but if not [try looking here.]
 ## Quickstart
 
 ```sh
-git clone https://github.com/smartcontractkit/foundry-starter-kit
-cd foundry-starter-kit
+git clone https://github.com/sunny0714/foundry-starter
+cd foundry-starter
 make # This installs the project's dependencies.
 make test
 ```
@@ -147,23 +133,4 @@ Then, you can run:
 make slither
 ```
 
-And get your slither output. 
-
-
-
-# Contributing
-
-Contributions are always welcome! Open a PR or an issue!
-
-# Thank You!
-
-## Resources
-
--   [Chainlink Documentation](https://docs.chain.link/)
--   [Foundry Documentation](https://book.getfoundry.sh/)
-
-### TODO
-
-[ ] Add bash scripts to interact with contracts using `cast`
-
-[ ] Make deploying contracts to `anvil` simpler
+And get your slither output.
